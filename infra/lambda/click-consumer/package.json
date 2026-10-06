@@ -1,0 +1,11 @@
+﻿{
+  "name": "click-consumer",
+  "version": "1.0.0",
+  "description": "SQS → DynamoDB click event consumer for ShortLink",
+  "type": "module",
+  "main": "index.mjs",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/lib-dynamodb": "^3.600.0"
+  }
+}
